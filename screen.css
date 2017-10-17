@@ -46,7 +46,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+/*Basic font/layout info*/
 html {
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
@@ -63,10 +63,6 @@ html {
 }
 p {
  padding-bottom: 1.222222em;
-}
-
-h1+p{
-	text-indent: 0;
 }
 
 h1 {
@@ -93,3 +89,14 @@ img {
 	display: block;
 	max-width: 100%;
 }
+
+/*section layout*/
+
+section {
+  width: 100%;
+  padding: 0 7%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  background-color: white;
+  height: 100vh;
