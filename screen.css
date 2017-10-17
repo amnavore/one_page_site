@@ -65,10 +65,6 @@ p {
  padding-bottom: 1.222222em;
 }
 
-p{
-	text-indent: 1.222222em;
-}
-
 h1+p{
 	text-indent: 0;
 }
