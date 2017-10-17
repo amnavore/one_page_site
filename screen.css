@@ -96,13 +96,17 @@ section {
   display: table;
   margin: 0;
   max-width: none;
-  background-color: white;
+  background-color: #FDFDFD;
   height: 100vh;
-
+}
+section:nth-of-type{
+  background-color: #9EBE56
 }
 
 intro {
-  background-image: cover.jpg
+  background-image: url(cover.jpg)
 }
 
+
+}
  }
