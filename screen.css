@@ -103,14 +103,23 @@ section {
   background-color: #FDFDFD;
   height: 100vh;
 }
-about{
-  background-color: #9EBE56;
-	font-color: #FDFDFD;
-}
 
 intro {
   background-image: image(cover.jpg);
 }
+
+about{
+  background-color: #9EBE56;
+	font-color: #FDFDFD;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+quick {
+	display: table-cell;
+	vertical-align: middle;
+}
+
 
 
 }
