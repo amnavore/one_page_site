@@ -103,14 +103,15 @@ section {
   background-color: #FDFDFD;
   height: 100vh;
 }
-section:nth-of-type{
-  background-color: #9EBE56
+about{
+  background-color: #9EBE56;
+	font-color: #FDFDFD;
 }
 
 intro {
-  background-image: url(cover.jpg)
+  background-image: image(cover.jpg);
 }
 
 
 }
- }
+}
