@@ -90,37 +90,28 @@ h3 {
 img {
 	display: block;
 	max-width: 100%;
+	margin:auto;
+	border-radius: 50%;
+	align:center;
 }
 
 /*section layout*/
-
 section {
   width: 100%;
   padding: 0 7%;
   display: table;
   margin: 0;
   max-width: none;
-  background-color: #FDFDFD;
+  background-color: #9EBE56;
   height: 100vh;
 }
-
-intro {
-  background-image: image(cover.jpg);
-}
-
 about{
-  background-color: #9EBE56;
-	font-color: #FDFDFD;
-  display: table-cell;
-  vertical-align: middle;
+	width: 100%;
+  display: table;
+
 }
 
 quick {
 	display: table-cell;
 	vertical-align: middle;
-}
-
-
-
-}
 }
