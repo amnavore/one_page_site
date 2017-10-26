@@ -76,6 +76,7 @@ h2 {
  padding: 0px;
  text-align: center;
  font-size: 2.778em;
+ padding-top: 1.222222em;
  padding-bottom: 1.222222em;
 }
 
@@ -84,6 +85,7 @@ h3 {
  padding: 0px;
  text-align: center;
  font-size: 2.778em;
+ padding-top: 1.222222em;
  padding-bottom: 1.222222em;
 }
 
@@ -101,17 +103,10 @@ section {
   padding: 0 7%;
   display: table;
   margin: 0;
-  max-width: none;
-  background-color: #9EBE56;
+  max-width: 100%;
+  background-color: #FDFDFD;
   height: 100vh;
 }
-about{
-	width: 100%;
-  display: table;
-
-}
-
-quick {
-	display: table-cell;
-	vertical-align: middle;
+section:nth-of-type(2n) {
+  background-color:#9EBE56
 }
