@@ -52,13 +52,11 @@ html {
 	-webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 	text-rendering: optimizeLegibility;
-	text-align:center;
+	text-align:justify;
 	font-size: 1.125em; /*18 / 16 = 1.125 */
 	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 	line-height: 1.222222em; /*21.6 / 18 = 1.2 */
 	padding-top: 2.444444em; /* 44 / 18 = 2.4444444 em */
-	padding-right: 1.222222em;
-	padding-left: 1.222222em;
 }
 p {
  padding-bottom: 1.222222em;
@@ -103,18 +101,33 @@ img {
 	border-radius: 50%;
 	align:center;
 }
+p{
+  text-align:justify;
+	display:block;
+}
 
 /*section layout*/
+
 section {
-  width: 100%;
-  padding: 0 7%;
+	width: 100%;
+  padding-left:4.9em;
+	padding-right:4.9em;
   display: table;
   margin: 0;
-  max-width: 100%;
+	min-width:100%;
+  max-width: none;
   background-color: #FDFDFD;
   height: 100vh;
 }
 section:nth-of-type(2n) {
   background-color:#9EBE56
-	color: #FDFDFD
 }
+
+h2, h4{color:#FDFDFD}
+
+p{
+	color: #FDFDFD;
+	display:block;
+}
+
+/*media queries*/
